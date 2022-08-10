@@ -669,46 +669,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3230634270434118149, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: d1a6ea65e84fc044685b846e01af1cbc, type: 3}
     - target: {fileID: 3230634270434118150, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
       propertyPath: m_Name
       value: Collapsing Platform
       objectReference: {fileID: 0}
-    - target: {fileID: 3230634270434118168, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: m_Size.x
-      value: 2.496748
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230634270434118168, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: m_Size.y
-      value: 0.46667147
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230634270434118168, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0039184093
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230634270434118168, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0107524395
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230634270434118168, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230634270434118168, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230634270434118169, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: damagedPlataform
-      value: 
-      objectReference: {fileID: 21300000, guid: cea8c9d9ce9edb142b6e27f81655e56b, type: 3}
-    - target: {fileID: 3230634270434118169, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
-      propertyPath: undamagedPlataform
-      value: 
-      objectReference: {fileID: 21300000, guid: d1a6ea65e84fc044685b846e01af1cbc, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 248e9bd57eb44b740be573c44ace3b20, type: 3}
 --- !u!1001 &1165732260
@@ -962,34 +926,6 @@ PrefabInstance:
     - target: {fileID: 4247211649135373315, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
       propertyPath: m_Name
       value: FloatingPlatform
-      objectReference: {fileID: 0}
-    - target: {fileID: 4247211649135373316, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f03c1442e6d336d42bcfd35dc4756f1b, type: 3}
-    - target: {fileID: 4247211649135373317, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
-      propertyPath: m_Size.x
-      value: 2.5003028
-      objectReference: {fileID: 0}
-    - target: {fileID: 4247211649135373317, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
-      propertyPath: m_Size.y
-      value: 0.5070195
-      objectReference: {fileID: 0}
-    - target: {fileID: 4247211649135373317, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0031981468
-      objectReference: {fileID: 0}
-    - target: {fileID: 4247211649135373317, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.008216143
-      objectReference: {fileID: 0}
-    - target: {fileID: 4247211649135373317, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4247211649135373317, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4247211649135373319, guid: 9ee509b63fb41494daa0c62e28676603, type: 3}
       propertyPath: m_RootOrder
