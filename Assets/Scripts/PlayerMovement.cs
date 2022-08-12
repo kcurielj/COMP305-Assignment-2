@@ -25,10 +25,6 @@ public class PlayerMovement : MonoBehaviour
         horizontalMov = Input.GetAxisRaw("Horizontal") * speed;
         verticalMov = Input.GetAxisRaw("Vertical") * speed;
 
-        if (verticalMov > 0f)
-        {
-            isJump = true;
-        }
     }
 
     void FixedUpdate()
