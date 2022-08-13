@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7797326217917271520}
   m_Layer: 0
   m_Name: Tilting Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7797326217917271518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.6566, y: -1.9152488, z: 0}
-  m_LocalScale: {x: 3.9521, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 6f344cb89fcd3ce46b5b32a594f4d945, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a7bb8a37d0b27af43a80f9918e66e47b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,18 +121,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.09937048, y: 0.102556646}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 6.4, y: 6.4}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.1922235, y: 0.6034478}
   m_EdgeRadius: 0
 --- !u!233 &7797326217917271520
 HingeJoint2D:
@@ -148,8 +148,8 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.6566, y: -1.9152488}
+  m_Anchor: {x: 0.11231041, y: 0.12835562}
+  m_ConnectedAnchor: {x: 10.582898, y: 1.579336}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

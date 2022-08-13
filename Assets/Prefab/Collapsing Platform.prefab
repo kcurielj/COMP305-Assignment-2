@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3230634270434118168}
   m_Layer: 0
   m_Name: Collapsing Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3230634270434118150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.0506, y: -4.3715816, z: 0}
-  m_LocalScale: {x: 5.0573, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,12 +76,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d1a6ea65e84fc044685b846e01af1cbc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: fa43d36521fa6f240be4e74d2c607754, type: 3}
+  m_Color: {r: 1, g: 0.5896226, b: 0.5896226, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 6.4, y: 6.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480f002037823cd40a9482f264f0abd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  undamagedPlataform: {fileID: 21300000, guid: d1a6ea65e84fc044685b846e01af1cbc, type: 3}
-  damagedPlataform: {fileID: 21300000, guid: cea8c9d9ce9edb142b6e27f81655e56b, type: 3}
+  undamagedPlataform: {fileID: 21300000, guid: fa43d36521fa6f240be4e74d2c607754, type: 3}
+  damagedPlataform: {fileID: 21300000, guid: 97a5030fdb331b54998972b7243944f0, type: 3}
   spriteRenderer: {fileID: 0}
 --- !u!61 &3230634270434118168
 BoxCollider2D:
@@ -136,16 +136,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0039184093, y: 0.0107524395}
+  m_Offset: {x: -0.0039186478, y: 0.0047090054}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 4}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 6.4, y: 6.4}
+    newSize: {x: 6.4, y: 6.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.496748, y: 0.46667147}
+  m_Size: {x: 4.382353, y: 0.79302645}
   m_EdgeRadius: 0
