@@ -26,7 +26,7 @@ public class CollapseablePlatform : MonoBehaviour
     IEnumerator onDisappear()
     {
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
 
         spriteRenderer.sprite = damagedPlataform;
 
